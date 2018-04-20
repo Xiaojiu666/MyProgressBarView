@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyProgressBar">
+        <attr name="progress_unreach_color" format="color" />
+        <attr name="progress_unreach_height" format="dimension" />
+        <attr name="progress_reach_color" format="color" />
+        <attr name="progress_reach_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_image_car" format="string" />
+        <attr name="progress_text_offest" format="reference" />
+    </declare-styleable>
+</resources>

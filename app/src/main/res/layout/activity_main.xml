@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ax="http://schemas.android.com/apk/res/com.test.myprogressbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.test.myprogressbar.MyProgressBar
+        android:id="@+id/mpb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#FFF"
+        app:progress_image_car="@mipmap/fire_car"
+        ax:progress_reach_color="#FF5959"
+        ax:progress_unreach_color="#999999" />
+
+    <!--   <com.test.myprogressbar.MyView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+   -->
+</LinearLayout>
